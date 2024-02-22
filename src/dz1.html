@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- дз 1
+    <script>
+        var name = prompt('Введите ваше имя');
+        alert('Привет, ' + name + '!');
+    </script> -->
+
+    <!-- дз2
+    <script>
+        const currentYear = new Date().getFullYear();
+        var birthYear = prompt('Введите год вашего рождения');
+        var age = currentYear - birthYear;
+        alert('Вам ' + age + ' лет');
+    </script> -->
+
+
+
+    <!-- дз3
+    <script>
+        var sideLength = prompt("Введите длину стороны квадрата");
+        var perimeter = 4 * sideLength;
+        alert("Периметр квадрата равен " + perimeter);
+    </script> -->
+
+    <!-- дз4
+    <script>
+        var radius = prompt("Введите радиус окружности");
+        var area = Math.PI * radius * radius;
+        alert("Площадь окружности равна " + area);
+    </script> -->
+
+    <!-- дз5
+    <script>
+        var distance = prompt("Введите расстояние между городами в км");
+var hours = prompt("Введите время в пути в часах");
+var speed = distance / hours;
+alert("Необходимо двигаться со скоростью " + speed + " км/ч");
+    </script> -->
+
+    <!-- дз6
+    <script>
+        const exchangeRate = 0.91;
+        var dollar = prompt('Введите сумму в долларах')
+        var evro = dollar  * exchangeRate
+        alert('Сумма евро:' + evro)
+
+    </script> -->
+
+    <!-- дз7
+    <script>
+        var flashDriveSize = prompt("Введите объем флешки в Гб");
+var fileSize = 820;
+var filesCount = Math.floor(flashDriveSize * 1024 / fileSize);
+alert("На флешку поместится " + filesCount + " файлов");
+    </script> -->
+
+    <!-- дз10
+    <script>
+        var flashDriveSize = prompt("Введите объем флешки в Гб");
+var fileSize = 820;
+var filesCount = Math.floor(flashDriveSize * 1024 / fileSize);
+alert("На флешку поместится " + filesCount + " файлов");
+    </script> -->
+
+    <!-- пз1
+    <script>
+        let number = prompt("Введите число:");
+        let result = Math.pow(number, 2);
+        alert("Результат возведения во 2-ю степень: " + result);
+    </script> -->
+
+    <!-- пз2
+    <script>
+        let number1 = prompt("Введите первое число:");
+        let number2 = prompt("Введите второе число:");
+        let average = (parseFloat(number1) + parseFloat(number2)) / 2;
+        alert("Среднее арифметическое: " + average);
+    </script> -->
+
+    <!-- пз3
+    <script>
+        let side = prompt("Введите длину стороны квадрата:");
+        let area = Math.pow(parseFloat(side), 2);
+        alert("Площадь квадрата: " + area);
+    </script> -->
+
+    <!-- пз4
+    <script>
+        const milesPerKilometer = 0.621371;
+        let kilometers = prompt("Введите значение в километрах:");
+        let miles = parseFloat(kilometers) * milesPerKilometer;
+        alert("Значение в милях: " + miles);
+    </script> -->
+
+    <!-- пз5
+    <script>
+        let number1 = prompt("Введите первое число:");
+        let number2 = prompt("Введите второе число:");
+
+        let addition = parseFloat(number1) + parseFloat(number2);
+        let subtraction = parseFloat(number1) - parseFloat(number2);
+        let multiplication = parseFloat(number1) * parseFloat(number2);
+        let division = parseFloat(number1) / parseFloat(number2);
+
+        alert("Результат сложения: " + addition);
+        alert("Результат вычитания: " + subtraction);
+        alert("Результат умножения: " + multiplication);
+        alert("Результат деления: " + division);
+    </script> -->
+
+    <!-- пз6
+    <script>
+        let a = prompt("Введите значение a:");
+        let b = prompt("Введите значение b:");
+
+        let x = -parseFloat(b) / parseFloat(a);
+        alert("Значение x: " + x);
+    </script> -->
+
+    <!-- пз7
+    <script>
+        let currentHours = prompt("Введите текущее значение часов:");
+        let currentMinutes = prompt("Введите текущее значение минут:");
+
+        const totalMinutesPerDay = 24 * 60;
+        let remainingMinutes = totalMinutesPerDay - (parseFloat(currentHours) * 60 + parseFloat(currentMinutes));
+
+        let remainingHours = Math.floor(remainingMinutes / 60);
+        let remainingMinutesOutput = remainingMinutes % 60;
+
+        alert("Осталось " + remainingHours + " часов " + remainingMinutesOutput + " минут до следующего дня.");
+    </script> -->
+
+</body>
+</html>
