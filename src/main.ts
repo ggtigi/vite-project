@@ -121,44 +121,43 @@ console.log('test')
 
 //      пз7
     
-        // let currentHours = +(prompt("Введите текущее значение часов:") as string);
-        // let currentMinutes = +(prompt('Введите текущее значение минут:') as string);
+        // let currentHours = '20'
+        // let currentMinutes = '22'
 
         // const totalMinutesPerDay = 24 * 60;
-        // let remainingMinutes = totalMinutesPerDay - (parseFloat(currentHours) * 60 + parseFloat(currentMinutes));
+        // let remainingMinutes = totalMinutesPerDay - (parseFloat (currentHours) * 60 + parseFloat (currentMinutes));
 
         // let remainingHours = Math.floor(remainingMinutes / 60);
         // let remainingMinutesOutput = remainingMinutes % 60;
 
-        // alert("Осталось " + remainingHours + " часов " + remainingMinutesOutput + " минут до следующего дня.");
-
-
+        // console.log("Осталось " + remainingHours + " часов " + remainingMinutesOutput + " минут до следующего дня.");
+        
 
             //1
-        let age: number = 25
-        if (age > 14 && age < 90) {
-            console.log ('всё ок')
-        } else {
-            console.log ('не получается')
-        }
+        // let age: number = 25
+        // if (age > 14 && age < 90) {
+        //     console.log ('всё ок')
+        // } else {
+        //     console.log ('не получается')
+        // }
 
 
         // 2
 
 
-        age = 25
-        if (!(age < 14 &&  age > 90)) {
-            console.log ('всё ок')
-        } else {
-            console.log ('не получается')
-        }
+        // age = 25
+        // if (!(age < 14 &&  age > 90)) {
+        //     console.log ('всё ок')
+        // } else {
+        //     console.log ('не получается')
+        // }
 
-        age = 25
-        if (age < 14 && age > 90) {
-            console.log ('всё ок')
-        } else {
-            console.log ('не получается')
-        }
+        // age = 25
+        // if (age < 14 && age > 90) {
+        //     console.log ('всё ок')
+        // } else {
+        //     console.log ('не получается')
+        // }
 
 
 
