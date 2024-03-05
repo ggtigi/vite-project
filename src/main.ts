@@ -2,100 +2,100 @@ import './style.css'
 console.log('test')
 
 //  дз 1
-    
-        // var name = prompt('Введите ваше имя');
-        // alert('Привет, ' + name + '');
-     
+
+// var name = prompt('Введите ваше имя');
+// alert('Привет, ' + name + '');
+
 
 //      дз2
-    
+
 //         const currentYear = new Date().getFullYear();
 //         var birthYear = prompt('Введите год вашего рождения');
 //         var age = currentYear - birthYear;
 //         alert('Вам ' + age + ' лет');
-     
+
 
 
 
 //      дз3
-    
+
 //         var sideLength = prompt("Введите длину стороны квадрата");
 //         var perimeter = 4 * sideLength;
 //         alert("Периметр квадрата равен " + perimeter);
-     
+
 
 //      дз4
-    
+
 //         var radius = prompt("Введите радиус окружности");
 //         var area = Math.PI * radius * radius;
 //         alert("Площадь окружности равна " + area);
-     
+
 
 //      дз5
-    
+
 //         var distance = prompt("Введите расстояние между городами в км");
 // var hours = prompt("Введите время в пути в часах");
 // var speed = distance / hours;
 // alert("Необходимо двигаться со скоростью " + speed + " км/ч");
-     
+
 
 //      дз6
-    
+
 //         const exchangeRate = 0.91;
 //         var dollar = prompt('Введите сумму в долларах')
 //         var evro = dollar  * exchangeRate
 //         alert('Сумма евро:' + evro)
 
-     
+
 
 //      дз7
-    
+
 //         var flashDriveSize = prompt("Введите объем флешки в Гб");
 // var fileSize = 820;
 // var filesCount = Math.floor(flashDriveSize * 1024 / fileSize);
 // alert("На флешку поместится " + filesCount + " файлов");
-     
+
 
 //      дз10
-    
+
 //         var flashDriveSize = prompt("Введите объем флешки в Гб");
 // var fileSize = 820;
 // var filesCount = Math.floor(flashDriveSize * 1024 / fileSize);
 // alert("На флешку поместится " + filesCount + " файлов");
-     
+
 
 //      пз1
-    
-        // let number = +(prompt("Введите число:") as string);
-        // let result = Math.pow(number, 2);
-        // alert("Результат возведения во 2-ю степень: " + result);
-     
+
+// let number = +(prompt("Введите число:") as string);
+// let result = Math.pow(number, 2);
+// alert("Результат возведения во 2-ю степень: " + result);
+
 
 //      пз2
-    
-        // let number1 = +(prompt("Введите первое число:") as string);
-        // let number2 = prompt("Введите второе число:");
-        // let average = (parseFloat(number1) + parseFloat(number2)) / 2;
-        // alert("Среднее арифметическое: " + average);
-     
+
+// let number1 = +(prompt("Введите первое число:") as string);
+// let number2 = prompt("Введите второе число:");
+// let average = (parseFloat(number1) + parseFloat(number2)) / 2;
+// alert("Среднее арифметическое: " + average);
+
 
 //      пз3
-    
-        // let side = +prompt("Введите длину стороны квадрата:");
-        // let area = Math.pow(parseFloat(side), 2);
-        // alert("Площадь квадрата: " + area);
-     
+
+// let side = +prompt("Введите длину стороны квадрата:");
+// let area = Math.pow(parseFloat(side), 2);
+// alert("Площадь квадрата: " + area);
+
 
 //      пз4
-    
+
 //         const milesPerKilometer = 0.621371;
 //         let kilometers = prompt("Введите значение в километрах:");
 //         let miles = parseFloat(kilometers) * milesPerKilometer;
 //         alert("Значение в милях: " + miles);
-     
+
 
 //      пз5
-    
+
 //         let number1 = prompt("Введите первое число:");
 //         let number2 = prompt("Введите второе число:");
 
@@ -108,63 +108,63 @@ console.log('test')
 //         alert("Результат вычитания: " + subtraction);
 //         alert("Результат умножения: " + multiplication);
 //         alert("Результат деления: " + division);
-     
+
 
 //      пз6
-    
+
 //         let a = prompt("Введите значение a:");
 //         let b = prompt("Введите значение b:");
 
 //         let x = -parseFloat(b) / parseFloat(a);
 //         alert("Значение x: " + x);
-     
+
 
 //      пз7
-    
-        // let currentHours = '20'
-        // let currentMinutes = '22'
 
-        // const totalMinutesPerDay = 24 * 60;
-        // let remainingMinutes = totalMinutesPerDay - (parseFloat (currentHours) * 60 + parseFloat (currentMinutes));
+// let currentHours = '20'
+// let currentMinutes = '22'
 
-        // let remainingHours = Math.floor(remainingMinutes / 60);
-        // let remainingMinutesOutput = remainingMinutes % 60;
+// const totalMinutesPerDay = 24 * 60;
+// let remainingMinutes = totalMinutesPerDay - (parseFloat (currentHours) * 60 + parseFloat (currentMinutes));
 
-        // console.log("Осталось " + remainingHours + " часов " + remainingMinutesOutput + " минут до следующего дня.");
-        
+// let remainingHours = Math.floor(remainingMinutes / 60);
+// let remainingMinutesOutput = remainingMinutes % 60;
 
-            //1 на уроке
-        // let age: number = 25
-        // if (age > 14 && age < 90) {
-        //     console.log ('всё ок')
-        // } else {
-        //     console.log ('не получается')
-        // }
+// console.log("Осталось " + remainingHours + " часов " + remainingMinutesOutput + " минут до следующего дня.");
 
 
-        // 2 на уроке
+//1 на уроке
+// let age: number = 25
+// if (age > 14 && age < 90) {
+//     console.log ('всё ок')
+// } else {
+//     console.log ('не получается')
+// }
 
 
-        // age = 25
-        // if (!(age < 14 &&  age > 90)) {
-        //     console.log ('всё ок')
-        // } else {
-        //     console.log ('не получается')
-        // }
-
-        // age = 25
-        // if (age < 14 && age > 90) {
-        //     console.log ('всё ок')
-        // } else {
-        //     console.log ('не получается')
-        // }
+// 2 на уроке
 
 
+// age = 25
+// if (!(age < 14 &&  age > 90)) {
+//     console.log ('всё ок')
+// } else {
+//     console.log ('не получается')
+// }
+
+// age = 25
+// if (age < 14 && age > 90) {
+//     console.log ('всё ок')
+// } else {
+//     console.log ('не получается')
+// }
 
 
 
 
-        // дз2.1 Запросить у пользователя его возраст и определить, кем он
+
+
+// дз2.1 Запросить у пользователя его возраст и определить, кем он
 // является: ребенком (0–2), подростком (12–18), взрослым
 // (18_60) или пенсионером (60– ...).
 // let age = parseInt(prompt('Введите ваш возраст:', '0') as string)
@@ -255,7 +255,7 @@ console.log('test')
 
 // if (userInput >= 100 && userInput <= 999) {
 //     const strUserInput: string = userInput.toString();
-    
+
 //     if (strUserInput == strUserInput || strUserInput == strUserInput || strUserInput == strUserInput) {
 //         console.log('В числе ${userInput} есть одинаковые числа')
 //     } else {
@@ -266,10 +266,118 @@ console.log('test')
 
 // }
 
+
+
+// Дз3 
+// Запросить у пользователя трехзначное число и проверить,
+// есть ли в нем одинаковые цифры.
+
+// let number = 222
+// if (number > 99 || number < 1000) {
+//     switch (number) {
+//         case 111:
+//             console.log("Тут есть одинаковые числа!");
+//             break;
+//         case 222:
+//             console.log("Тут есть одинаковые числа!");
+//             break;
+//         case 333:
+//             console.log("Тут есть одинаковые числа!");
+//             break;
+
+//         case 444:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+
+//         case 555:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+
+//         case 666:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+//         case 777:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+
+//         case 888:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+
+//         case 999:
+//             console.log('Тут есть одинаковые числа!')
+//             break
+//     }
+// } else {
+//     console.log('Всё верно!')
+// }
+
+
+
+
 // 2.6 Написать конвертор валют. Пользователь вводит количе-
 // ство USD, выбирает, в какую валюту хочет перевести: EUR,
 // UAN или AZN, и получает в ответ соответствующую сумму.
 
+// let money = {
+//     USD: { EUR: 0.85, UAN: 27.2, AZN: 1.7 }
+//   }
+//  let amout = ('Введите колличество USD')
+//  let fromCurrency = 'USD'
+//  let toCurrency = ('Выберите валюту')
+
+
+// pz4.1 Написать функцию, которая принимает 2 числа и возвра-
+// щает меньшее из них.
+
+// function age (a: number, b: number) {
+//         return (a <= b ? a : b)
+// }
+// console.log(age(3, 5))
+
+// pz4.2 Написать функцию, которая возводит переданное число
+// в указанную степень.
+
+// function pow (a: number, b: number) {
+//         return Math.pow(a,b)
+// }
+// console.log(pow(2,3))
+
+// pz4.3 Написать функцию, которая принимает 2 числа и знак
+// (+ - * /), считает пример и возвращает результат
+
+// function getCalculation(a: number, b: number, znak: string) {
+//     switch (znak) {
+//         case '+':
+//             return a + b
+//         case '-':
+//             return b - a
+//         case '/':
+//             return a / b
+//         case '*':
+//             return a / b
+//         default:
+//             return '\\'
+
+//     }
+// }
+// console.log(getCalculation(1, 2, '+'))
+
+
+// pz4.4 Написать функцию, которая проверяет, является ли пере-
+// данное ей число простым.
+function isnum (a: number) {
+    if (a <= 1) {
+    return false
+    }
+    for (let i = 2; i < a; i++) {
+        if (a % i == 0) {
+        return false
+        }
+    }
+    return true
+}
+console.log(isnum(12))
 
 
 
@@ -279,7 +387,9 @@ console.log('test')
 
 
 
-     
+
+
+
 
 
 
