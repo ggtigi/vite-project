@@ -366,18 +366,122 @@ console.log('test')
 
 // pz4.4 Написать функцию, которая проверяет, является ли пере-
 // данное ей число простым.
-function isnum (a: number) {
-    if (a <= 1) {
-    return false
-    }
-    for (let i = 2; i < a; i++) {
-        if (a % i == 0) {
-        return false
-        }
-    }
-    return true
-}
-console.log(isnum(12))
+// function isnum (a: number) {
+//     if (a <= 1) {
+//     return false
+//     }
+//     for (let i = 2; i < a; i++) {
+//         if (a % i == 0) {
+//         return false
+//         }
+//     }
+//     return true
+// }
+// console.log(isnum(12))
+
+
+// pz5.3 Написать функцию, которая выводит переданное ей число
+// задом наперед.
+// Например: число 1234 вывести как 4321
+
+// function getReversNumber (n: number): number {
+//     if (n<10) {
+//         return n
+
+//     }else {
+//         return +( n % 10 + '' + getReversNumber (Math.floor(n/10)))
+//     }
+// } 
+// console.log(getReversNumber(1234))
+
+
+// pz5.4 Написать функцию, которая считает сумму цифр числа.
+// Например: число 1357, сумма 1 + 3 + 5 + 7 = 16
+
+
+// function getReversNumber (n: number): number {
+//     if (n<10) {
+//         return n
+
+//     }else {
+//         return +( n % 10 +  getReversNumber (Math.floor(n/10)))
+//     }
+// } 
+// console.log(getReversNumber(1357))
+
+
+// pz5.5 Написать функцию, которая принимает число и выводит
+// соответствующее количество вложенных пар круглых скобок.
+// Например: число 4 – (((()))).
+
+
+// function geBracketPairsBylum(n: number): string{
+//     if (!n) {
+//         return '()'
+
+//     }else {
+//         return '(' + geBracketPairsBylum(n-1) + ')'
+//     }
+// } 
+// console.log(geBracketPairsBylum(4))
+
+
+
+
+
+
+
+
+
+
+// pz5.1 Написать функцию, которая вычисляет факториал задан-
+// ного числа.
+
+// function factorial (num: number): number {
+//     if (num == 0) {
+//         return 1
+//     } else 
+//     return num * factorial (num - 1)
+
+
+// }
+// console.log(factorial(5))
+
+
+// pz5.2 Написать функцию, которая выводит все числа из заданного
+// пользователем диапазона в прямом порядке. И еще одну
+// функцию – для вывода в обратном порядке.
+
+// function PrintNumversForvard2(start: number, end: number): void {
+//     if (start > end) {
+//         return 
+//     }
+//     console.log(start)
+//     PrintNumversForvard2(start+1, end)
+// }
+// PrintNumversForvard2(1, 5)
+
+// function PrintNumversBacward2(start: number, end: number): void {
+//     if (start < end) {
+//         return
+//     }
+//     console.log(start)
+//     PrintNumversBacward2(start-1, end)
+// }
+// PrintNumversBacward2(5, 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
