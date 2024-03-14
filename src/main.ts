@@ -470,6 +470,68 @@ console.log('test')
 // }
 // PrintNumversBacward2(5, 1)
 
+// pzM2W1.1
+// Функция принимает объект-прямоугольник и выводит
+// информацию о нем (где какая точка расположена).
+
+// interface Rectangle {
+//     x1: number;
+//     y1: number;
+//     x2: number;
+//     y2: number;
+// }
+
+// function getRectangleInfo(rectangle: Rectangle): void {
+//     console.log(`Rectangle Info:`);
+//     console.log(`Top-Left Point: (${rectangle.x1}, ${rectangle.y1})`);
+//     console.log(`Top-Right Point: (${rectangle.x2}, ${rectangle.y1})`);
+//     console.log(`Bottom-Left Point: (${rectangle.x1}, ${rectangle.y2})`);
+//     console.log(`Bottom-Right Point: (${rectangle.x2}, ${rectangle.y2})`);
+// }
+
+// const myRectangle: Rectangle = { x1: 0, y1: 0, x2: 5, y2: 5 };
+// getRectangleInfo(myRectangle);
+
+
+// pzM2W1.2 
+// Функция принимает объект-прямоугольник и возвращает
+// его ширину.
+
+// interface Rectangle {
+//     x1: number;
+//     y1: number;
+//     x2: number;
+//     y2: number;
+// }
+
+// function getRectangleWidth(rectangle: Rectangle): number {
+//     return Math.abs(rectangle.x2 - rectangle.x1);
+// }
+
+// const myRectangle: Rectangle = { x1: 0, y1: 0, x2: 5, y2: 5 };
+// const width = getRectangleWidth(myRectangle);
+// console.log(`Rectangle Width: ${width}`);
+
+// pzM2W1.3
+// Функция принимает объект-прямоугольник и возвращает
+// его высоту.
+
+function getHeight(rectangle: any) {
+    return rectangle.height;
+}
+let rectangle = {
+    width: 10,
+    height: 20
+};
+
+let height = getHeight(rectangle);
+console.log(`Высота прямоугольника: ${height}`);
+
+
+
+
+
+
 
 
 
